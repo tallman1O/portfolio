@@ -12,34 +12,34 @@ export const TechStack = () => {
       className: "h-10 w-14",
     },
     {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
+      title: "ReactJs",
+      src: "/images/logos/react-2.svg",
 
       className: "h-10 w-10",
-    },
-    {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
-    },
-    {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
-    },
-    {
-      title: "Node",
-      src: "/images/logos/node.png",
-
-      className: "h-10 w-12",
     },
     {
       title: "Tailwind",
       src: "/images/logos/tailwind.png",
 
       className: "h-10 w-24",
+    },
+    {
+      title: "Node",
+      src: "/images/logos/nodejs-1.svg",
+
+      className: "h-10 w-12",
+    },
+    {
+      title: "MongoDB",
+      src: "/images/logos/mongodb-icon-2.svg",
+
+      className: "h-10 w-fit",
+    },
+    {
+      title: "Figma",
+      src: "/images/logos/figma.png",
+
+      className: "h-10 w-8",
     },
     {
       title: "Vercel",

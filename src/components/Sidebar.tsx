@@ -3,7 +3,7 @@ import { navlinks } from "@/constants/navlinks";
 import { Navlink } from "@/types/navlink";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { Heading } from "./Heading";
