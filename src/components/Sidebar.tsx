@@ -12,7 +12,7 @@ import { Badge } from "./Badge";
 import { AnimatePresence, motion } from "framer-motion";
 import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
 import { isMobile } from "@/lib/utils";
-import ProfileImage from "../../public/images/mehul.jpg"
+import ProfileImage from "../../public/images/mehul.jpg";
 
 export const Sidebar = () => {
   const [open, setOpen] = useState(isMobile() ? false : true);
@@ -31,8 +31,6 @@ export const Sidebar = () => {
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
-            </div>
-            <div onClick={() => setOpen(false)}>
               <Badge href="/resume" text="Read Resume" />
             </div>
           </motion.div>
