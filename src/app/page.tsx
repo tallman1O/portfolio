@@ -4,6 +4,7 @@ import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
 import { TechStack } from "@/components/TechStack";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,13 +21,22 @@ export default function Home() {
         <Highlight>1 year of experience</Highlight> building scalable web apps
         that are performance optimized and good looking.
       </Paragraph>
-      {/* <Heading
+      <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
         What I&apos;ve been working on
       </Heading>
-      <Products /> */}
+      <Products />
+      <Heading
+        as="h2"
+        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
+      >
+        Check out more on{" "}
+        <Link href="/projects" className="tracking-wide text-blue-400 ">
+          Projects
+        </Link>
+      </Heading>
       <TechStack />
     </Container>
   );

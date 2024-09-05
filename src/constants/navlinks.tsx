@@ -1,5 +1,4 @@
 import {
-  IconArticle,
   IconBolt,
   IconBriefcase2,
   IconMail,
@@ -18,7 +17,7 @@ export const navlinks = [
     icon: IconMessage2,
   },
   {
-    href: "/project",
+    href: "/projects",
     label: "Projects",
     icon: IconBriefcase2,
   },
