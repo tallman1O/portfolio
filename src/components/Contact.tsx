@@ -1,5 +1,4 @@
 "use client";
-import { sendContactForm } from "@/lib/api";
 import React, { useState } from "react";
 
 const defaultFormState = {
@@ -22,13 +21,7 @@ export const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    const contactFormData = {
-      name: formData.name.value,
-      email: formData.email.value,
-      message: formData.message.value,
-    };
     
-    await sendContactForm(contactFormData);
     console.log(formData);
   };
   return (
