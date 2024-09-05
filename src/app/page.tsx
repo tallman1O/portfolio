@@ -20,13 +20,13 @@ export default function Home() {
         <Highlight>1 year of experience</Highlight> building scalable web apps
         that are performance optimized and good looking.
       </Paragraph>
-      <Heading
+      {/* <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
         What I&apos;ve been working on
       </Heading>
-      <Products />
+      <Products /> */}
       <TechStack />
     </Container>
   );

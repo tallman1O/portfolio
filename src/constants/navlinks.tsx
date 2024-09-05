@@ -18,7 +18,7 @@ export const navlinks = [
     icon: IconMessage2,
   },
   {
-    href: "/projects",
+    href: "/project",
     label: "Projects",
     icon: IconBriefcase2,
   },

@@ -1,26 +1,22 @@
 export const timeline = [
   {
-    company: "BytesWrite",
-    title: "Frontend Developer Intern",
-    date: "2024 - Present",
-    description: "Building modern Educational Software for Student and Faculties.",
-    responsibilities: [
-      "Developed a new feature that improves the shopping experience",
-      "Implemented a recommendation algorithm to suggest products",
-      "Enhanced the checkout process making it more intuitive and user-friendly",
-      "Built a feature for tracking packages in real-time",
-    ],
-  },
-  {
     company: "Computer Society Of India - MITWPU Chapter",
     title: "Member",
-    date: "2024 - Present",
+    date: "Aug 2024 - Present",
     description: "Collaborating to Bring Innovation a Reality.",
+    responsibilities: ["Collaborated with cross-functional teams"],
+  },
+  {
+    company: "BytesWrite",
+    title: "Frontend Developer Intern",
+    date: "Jul 2024 - Sept 2024",
+    description:
+      "Building modern Educational Software for Student and Faculties.",
     responsibilities: [
-      "Improved the search algorithm to provide more relevant results",
-      "Developed a new feature that personalizes search results",
-      "Enhanced the search functionality making it more intuitive and user-friendly",
-      "Implemented a feature for tracking search history",
+      "Designed web pages using modern UI/UX trends and principles",
+      "Developed the front-end side of the product using NextJS Framework",
+      "Wrote complex functions and algorithms to optimize performance and user experience",
+      "Collaborated with cross-functional teams to ensure seamless integration of UI components",
     ],
   },
 ];
