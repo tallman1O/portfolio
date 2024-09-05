@@ -31,8 +31,8 @@ export const Sidebar = () => {
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
+              <Badge href="/resume" text="Read Resume" />
             </div>
-            <Badge href="/resume" text="Read Resume" />
           </motion.div>
         )}
       </AnimatePresence>

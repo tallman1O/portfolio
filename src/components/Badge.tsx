@@ -14,7 +14,7 @@ export const Badge = ({
   return (
     <Link
       href={href}
-      className="bg-slate-900 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block"
+      className="bg-slate-900 no-underline group cursor-pointer relative rounded-full p-px text-xs font-semibold leading-6  text-white inline-block"
       {...props}
     >
       <span className="absolute inset-0 overflow-hidden rounded-full ">
