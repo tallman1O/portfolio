@@ -30,7 +30,7 @@ export default function Home() {
       <Products />
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
+        className="font-black text-lg md:text-base lg:text-base mt-20 mb-4"
       >
         Check out more on{" "}
         <Link href="/projects" className="tracking-wide text-blue-400 ">
