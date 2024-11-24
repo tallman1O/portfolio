@@ -28,6 +28,8 @@ export default function About() {
             width={200}
             height={200}
             alt="about"
+            priority
+            loading="eager"
             className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-full hover:rotate-0 transition duration-200"
           />
         </motion.div>

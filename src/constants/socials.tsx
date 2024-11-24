@@ -16,7 +16,7 @@ export const socials = [
     icon: IconBrandLinkedin,
   },
   {
-    href: "https://github.com/psvm-tallman",
+    href: "https://github.com/tallman1O",
     label: "Github",
     icon: IconBrandGithub,
   },
