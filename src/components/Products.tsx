@@ -41,7 +41,7 @@ export const Products = () => {
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg "
+                    className="text-black text-lg md:text-lg lg:text-lg "
                   >
                     {product.title}
                   </Heading>

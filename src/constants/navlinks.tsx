@@ -21,14 +21,14 @@ export const navlinks = [
     label: "Projects",
     icon: IconBriefcase2,
   },
+  {
+    href: "/contact",
+    label: "Contact",
+    icon: IconMail,
+  },
   // {
   //   href: "/blog",
   //   label: "Articles",
   //   icon: IconArticle,
-  // },
-  // {
-  //   href: "/contact",
-  //   label: "Contact",
-  //   icon: IconMail,
   // },
 ];

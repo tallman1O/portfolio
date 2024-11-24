@@ -52,7 +52,7 @@ export const TechStack = () => {
     <div>
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
+        className="text-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
         Tech Stack
       </Heading>
