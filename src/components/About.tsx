@@ -26,7 +26,7 @@ export default function About() {
           <Image
             src={AboutImage}
             width={200}
-            height={400}
+            height={200}
             alt="about"
             className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-full hover:rotate-0 transition duration-200"
           />
