@@ -2,8 +2,109 @@ import sidefolioAtomicBlog from "public/images/sidefolioAtomicBlog.svg";
 import sidefolioAtomicBlog2 from "public/images/sidefolioAtomicBlog-2.svg";
 import sidefolioEatNsplit from "public/images/sidefolio-eatNsplit.svg";
 import sidefolioEatNsplit2 from "public/images/sidefolio-eatNsplit-2.svg";
+import PrepmateThumbnail from "public/images/prepmate-thumbnail.png";
+import prepmateImage1 from "public/images/prepmate-image1.png";
+import prepmateImage2 from "public/images/prepmate-image2.png";
+import mttThumbnail from "public/images/mtt-thumbnail.png";
+import mttImage1 from "public/images/mtt-image1.png";
+import mttImage2 from "public/images/mtt-image2.png";
+import mttImage3 from "public/images/mtt-image3.png";
+import zentryThumbnail from "public/images/zentry-thumbnail.png";
+import zentryImage1 from "public/images/zentry-image1.png";
+import zentryImage2 from "public/images/zentry-image2.png";
+import zentryImage3 from "public/images/zentry-image3.png";
 
 export const products = [
+  {
+    href: "https://prepmate-ai.vercel.app/",
+    title: "Prepmate - AI Mock Interview Platform",
+    description:
+      "A Mock Interview Platform That Lets you Practice for Your Interviews.",
+    thumbnail: PrepmateThumbnail,
+    images: [prepmateImage1, prepmateImage2],
+    stack: ["NextJS", "TailwindCSS", "PostgreSQL", "Clerk", "Gemini API"],
+    slug: "prepmate",
+    content: (
+      <div>
+        <p>
+          Prepmate is a platform that lets you practice for your interviews with
+          AI. It uses the Gemini API to generate mock interviews and let you
+          practice for your interviews. It also has a real-time feedback system
+          to help you improve your answers.
+        </p>
+        <p>
+          The platform offers a comprehensive suite of features designed to
+          enhance your interview preparation. You can choose from various
+          interview types, including technical interviews for software
+          engineering roles, behavioral interviews for soft skills assessment,
+          and domain-specific interviews tailored to your field. The AI
+          interviewer adapts its questions based on your responses, creating a
+          dynamic and realistic interview experience. What sets Prepmate apart
+          is its real-time feedback system. After each response, you receive
+          detailed feedback on your answer quality, communication clarity, and
+          areas for improvement. The platform also provides a performance
+          analytics dashboard where you can track your progress over time and
+          identify specific areas that need more focus.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://robocon.in",
+    title: "MTT Robocon",
+    description:
+      "MIT Tech Team is the Official Robotics Team of MIT World Peace University",
+    thumbnail: mttThumbnail,
+    images: [mttImage1, mttImage2, mttImage3],
+    stack: ["NextJS", "TailwindCSS", "Framer Motion", "Web3 Forms"],
+    slug: "mtt-robocon",
+    content: (
+      <div>
+        <p>
+          MIT Tech Team Robocon is the official robotics team of MIT World Peace
+          University, dedicated to participating in the prestigious ABU Robocon
+          competition. Our team designs and builds advanced autonomous and
+          manual robots to compete at national and international levels. The
+          website showcases our journey, achievements, and the cutting-edge
+          robotics technology we develop.
+        </p>
+        <p>
+          As the digital face of MTT Robocon, this website serves as a
+          comprehensive platform highlighting our team&apos;s innovative
+          projects, competition history, and technical expertise. It features
+          detailed documentation of our robot building process, team structure,
+          and provides resources for aspiring robotics enthusiasts. The site
+          also plays a crucial role in attracting sponsors and new team members
+          to support our mission of advancing robotics technology.
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://zentry-clone-dev.vercel.app/",
+    title: "Zentry Clone Website",
+    description:
+      "A Clone of Zentry Website Replicating the UI and Features and Animations of the Original Website.",
+    thumbnail: zentryThumbnail,
+    images: [zentryImage1, zentryImage2, zentryImage3],
+    stack: ["NextJS", "TailwindCSS", "GSAP"],
+    slug: "zentry-clone",
+    content: (
+      <div>
+        <p>
+          Zentry Clone is a clone of the Zentry website, replicating the UI and
+          features and animations of the original website. It is a clone of the
+          Zentry website, replicating the UI and features and animations of the
+          original website.
+        </p>
+        <p>
+          The website is built using NextJS, TailwindCSS, and GSAP. It is a
+          clone of the Zentry website, replicating the UI and features and
+          animations of the original website.
+        </p>{" "}
+      </div>
+    ),
+  },
   {
     href: "https://atomic-blog-ashen.vercel.app/",
     title: "The Atomic Blog",

@@ -2,6 +2,7 @@
 import { Paragraph } from "@/components/Paragraph";
 import Image from "next/image";
 import AboutImage from "../../public/images/aboutme.svg";
+import MehulImage from "../../public/images/mehul.png";
 
 import { motion } from "framer-motion";
 
@@ -24,7 +25,7 @@ export default function About() {
           transition={{ duration: 0.2, delay: 0.1 }}
         >
           <Image
-            src={AboutImage}
+            src={MehulImage}
             width={200}
             height={200}
             alt="about"
