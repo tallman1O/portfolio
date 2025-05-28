@@ -15,9 +15,6 @@ export const metadata: Metadata = {
   title: "Mehul Uttam - Developer",
   description:
     "Mehul Uttam is a developer, designer and a tech savvy. He is a digital nomad and prefers working remotely.",
-  icons: {
-    icon: "/mehul.png",
-  },
 };
 
 export default function RootLayout({
